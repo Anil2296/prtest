@@ -3,7 +3,7 @@ name: PR Validation
 on:
   pull_request:
     branches:
-      - master  # Make sure it's targeting the correct branch, in your case `main`
+      - test  # Make sure it's targeting the correct branch, in your case `main`
 
 jobs:
   test:

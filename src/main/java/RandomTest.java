@@ -9,9 +9,9 @@ public class RandomTest {
 
         // Print the result to show if the PR should be accepted or rejected
         if (testResult) {
-            System.out.println("GitHub status: Accepted");  // If true, the PR is accepted
+            System.out.println("GitHub status: Accept");  // If true, the PR is accepted
         } else {
-            System.out.println("GitHub status: Rejected");  // If false, the PR is rejected
+            System.out.println("GitHub status: Reject");  // If false, the PR is rejected
         }
 
         // Exit with 0 (success) if true, 1 (failure) if false
