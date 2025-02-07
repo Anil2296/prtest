@@ -14,7 +14,7 @@ public class RandomPRCheck {
 
         // Exit code 0 for success, 1 for failure
         if (randomResult) {
-            System.out.println("OK, you can merge!");
+            System.out.println("OK, you can mrge!");
             System.exit(0);  // Success exit code (OK to merge)
         } else {
             System.out.println("Sorry, you cannot merge.");
