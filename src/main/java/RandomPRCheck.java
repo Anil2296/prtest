@@ -10,7 +10,7 @@ public class RandomPRCheck {
         boolean randomResult = new Random().nextBoolean();
 
         // Print the result
-        System.out.println("Random result: " + randomResult);
+        System.out.println("Random resul: " + randomResult);
 
         // Exit code 0 for success, 1 for failure
         if (randomResult) {
