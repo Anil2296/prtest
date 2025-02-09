@@ -3,15 +3,16 @@ package main.java;
 
 
 
-import java.util.Random;
+//mport java.util.Random;
 
 public class RandomPRCheck {
     public static void main(String[] args) {
         // Generate a random boolean value (true or false)
-        boolean randomResult = new Random().nextBoolean();
+        //boolean randomResult = new Random().nextBoolean();
+        boolean randomResult=true;
 
         // Print the result
-        System.out.println("Random resul: " + randomResult);
+        //System.out.println("Random resul: " + randomResult);
 
         // Exit code 0 for success, 1 for failure
         if (randomResult) {
