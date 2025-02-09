@@ -21,6 +21,9 @@ jobs:
           java-version: '11'
           distribution: 'zulu'   # Using Zulu JDK (Azul OpenJDK)
 
+      - name: List repository files
+        run: ls -R
+
       # Compile the Java program (if needed)
       - name: Compile Java Program
         run: javac src/main/java/RandomPRCheck.java
