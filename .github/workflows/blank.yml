@@ -28,7 +28,7 @@ jobs:
       # Run the Java program to determine if PR can be merged
       - name: Run Random Merge Check
         run: |
-          java RandomPRCheck
+          java src/main/java/RandomPRCheck
           
       # The exit code of the Java program determines the PR outcome
       - name: Handle PR Outcome
