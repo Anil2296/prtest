@@ -2,6 +2,7 @@ package main.java;
 
 
 
+
 import java.util.Random;
 
 public class RandomPRCheck {
@@ -14,7 +15,7 @@ public class RandomPRCheck {
 
         // Exit code 0 for success, 1 for failure
         if (randomResult) {
-            System.out.println("hi anil OK, you can   merge!");
+            System.out.println("OK, you can merge!");
             System.exit(0);  // Success exit code (OK to merge)
         } else {
             System.out.println("Sorry, you cannot merge.");
