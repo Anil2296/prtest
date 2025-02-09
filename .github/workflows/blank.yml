@@ -23,7 +23,7 @@ jobs:
 
       # Compile the Java program (if needed)
       - name: Compile Java Program
-        run: javac RandomPRCheck.java
+        run: javac src/main/java/RandomPRCheck.java
 
       # Run the Java program to determine if PR can be merged
       - name: Run Random Merge Check
