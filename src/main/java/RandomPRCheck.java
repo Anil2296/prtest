@@ -18,7 +18,7 @@ public class RandomPRCheck {
             System.out.println("OK, you can merge!");
             System.exit(0);  // Success exit code (OK to merge)
         } else {
-            System.out.println("Sorry, too raaa you cannot merge.");
+            System.out.println("Sorry, to raaa you cannot merge.");
             System.exit(1);  // Failure exit code (Cannot merge)
         }
     }
