@@ -10,6 +10,7 @@ public class RandomPRCheck {
         // Generate a random boolean value (true or false)
         //boolean randomResult = new Random().nextBoolean();
         boolean randomResult=true;
+        System.out.println("hi");
 
         // Print the result
         //System.out.println("Random resul: " + randomResult);
